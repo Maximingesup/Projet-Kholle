@@ -13,8 +13,9 @@ Technologie :Python 3
 Versionning: Git & Github
 
 III - Fonctionnalités
-Ce programme est une sorte d’utilitaire permettant de faire des opérations simple sur une liste d’entiers, qui sera stockée dans un fichier au format csv.
-Une fonctionnalité /commande est décrite ici en définissant tout d’abord sa manièred’être appelé, puis en expliquant sont effet.
+Ce programme est une sorte d’utilitaire permettant de faire des opérations simple
+ sur une liste d’entiers, qui sera stockée dans un fichier au format csv.
+Une fonctionnalité /commande est décrite ici en définissant tout d’abord sa manière d’être appelé, puis en expliquant sont effet.
 
 ./NOM_Prenom_kholle_1.py -l  Affiche le contenu de la liste.
 ./NOM_Prenom_kholle_1.py -a [ITEM1, ITEM2, ...] Ajoute les ITEMs dans la liste.Par exemple, “
