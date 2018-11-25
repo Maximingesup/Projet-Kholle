@@ -11,26 +11,26 @@ def reader():
         print(row)
 
 def delete():
-    with open('list.csv', 'w') as f:
+    with open('test.csv', 'w') as f:
         fichierCSV.write('Nos valeurs\n')
 
 def max_val():
-    maxval = pd.read_csv('list.csv')
+    maxval = pd.read_csv('test.csv')
     p = maxval['Valeurs'].max()
     print('\nLa valeur maximum de la liste est de : '.format(p))
 
 def min_val():
-    minval = pd.read_csv('list.csv')
+    minval = pd.read_csv('test.csv')
     p = minval['Valeurs'].min()
     print('\nLa valeur maximum de la liste est de : '.format(p))
 
 def average():
-    avrg=pd.read_csv('list.csv')
+    avrg=pd.read_csv('test.csv')
     p = avrg['Valeurs'].mean()
     print('\nLa moyenne de la liste est de : '.format(p))
 
 def sum():
-    summ = pd.read_csv('list.csv')
+    summ = pd.read_csv('test.csv')
     p = summ['Valeurs'].sum()
     print('\nLa somme de la liste est de : '.format(p))
 
